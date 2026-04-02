@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* header */
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    background:linear-gradient(90deg,#0b3c6f,#0f5fa8);
+    color:#fff;
+    padding:15px;
+    font-size:24px;
+    font-weight:600;
+}
+
+.header-logo{
+    height:45px;
+}
+
+/* container */
+.container{
+    display:flex;
+    height:100vh;
+}
+
+/* sidebar */
+.sidebar{
+    width:16.3333%;
+    background:linear-gradient(180deg,#0b1e3a,#0d2b52);
+    color:#fff;
+    padding:20px;
+}
+
+.sidebar h3{
+    font-size:18px;
+    margin-bottom:15px;
+    opacity:0.9;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+    padding-bottom:8px;
+}
+
+/* Lít */
+.student-list ul{
+    list-style:none;
+}
+
+.student-list li{
+    margin-bottom:10px;
+}
+
+.student-list a{
+    display:block;
+    padding:10px;
+    border-radius:8px;
+    text-decoration:none;
+    color:#fff;
+    background:rgba(255,255,255,0.05);
+    transition:all 0.25s ease;
+}
+
+/* hover */
+.student-list a:hover{
+    background:#1e88ff;
+    transform:translateX(5px);
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Content */
+.content{
+    flex: 1;
+    display:flex;
+    flex-direction:column;
+    background:#f5f7fa;
+}
+
+/* container header */
+.content-header{
+    padding:15px 20px;
+    font-weight:600;
+    font-size:18px;
+    background:#ffffff;
+    border-bottom:1px solid #ddd;
+}
+
+iframe{
+    height:100%;
+    width:100%;
+    border:none;
+    background:#fff;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
